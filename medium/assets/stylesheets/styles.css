@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  margin: 0;
+  background-color: green;
+  font-family: 'Orbitron', sans-serif;
+}
+
+img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#teamone-shoot, #teamtwo-shoot, #reset {
+  border: 5px solid black;
+}
+
+h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+#num-resets {
+  padding-top: 20px;
+}

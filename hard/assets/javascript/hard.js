@@ -34,9 +34,14 @@
    //jQuery equivelent to window.onload = function{}
    //code in here wont run until page loads
    $(function(){
-
-
-
+     //alert("Javascript is working!")
+     $('h1').click(function(){
+       console.log("Team Feed clicked");
+       if ($('h1').css('color'=='#000000')){;
+          $('hi').css('color','#d10a0a');
+       } else {
+         $('h1').css({'color','000000'});
+     })
    })
-
+})
  })();
